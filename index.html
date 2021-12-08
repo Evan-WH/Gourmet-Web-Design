@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <header>
+        <div style="height: 110px;justify-content: center;text-align: center;">
+            <img width="200px" src="./img/head.png" alt="加载失败">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><img src="./img/logo.svg" alt="加载失败"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="./picture.html">Picture</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="tx">
+            <h1>Need some inspiration?</h1>
+            <input type="text" placeholder="Enter your Favourite Ingredient or Recipe" class="input">
+        </div>
+        <div class="main" style="margin: 40px 30px;">
+            <div class="bord">
+                <img src="./img/cake1.jpg" alt="加载失败">
+                <i>Cook Time 10 minutes</i>
+                <h4>Peach Pancakes</h4>
+                <hr>
+            </div>
+            <div class="bord">
+                <img src="./img/cake2.jpg" alt="加载失败">
+                <i>Cook Time 50~60minutes</i>
+                <h4>Hazelnut Pavlova</h4>
+                <hr>
+            </div>
+            <div class="bord">
+                <img src="./img/cake3.jpg" alt="加载失败">
+                <i>Cook Time 50~60minutes</i>
+                <h4>Peach Trifle</h4>
+                <hr>
+            </div>
+        </div>
+        <div style="justify-content: center;text-align: center;">
+            <hr>
+            <h2>If you want to know more？👇</h2>
+        </div>
+        <div class="bottom">
+            <div class="about">
+                <img src="./img/bottom.png" alt="加载失败">
+                <div style="margin-top: 10px;">
+                    <img src="./img/qq.png" alt="加载失败" id="qq">
+                    <img src="./img/wx.png" alt="加载失败" id="wx">
+                    <img src="./img/twitter.png" alt="加载失败" id="tt">
+                </div>
+                <h6>@Only delicious food can't live up to it</h6>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<script>
+    var qq = document.getElementById("qq")
+    qq.onclick = function() {
+        window.open("http://wpa.qq.com/msgrd?v=3&uin=2637405542&site=qq&menu=yes")
+    }
+</script>
